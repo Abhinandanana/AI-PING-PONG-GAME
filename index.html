@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AI-Ping-Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body>
+        <center>
+           <h2 id="app_name">AI PING PONG GAME</h2>
+<button id="start-game">Play Game</button>
+<button id="restart-game">Restart Game</button>
+<h3 id="status"></h3>
+<div id="canvas"></div>
+<div id="ping_pong-Modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h4>Instructions</h4>
+            </div>
+            <div class="modal-body">
+                <h4>1. First keep your laptop screen straight.</h4>
+                <h4>2. Move yourself approximately 3-4 feet away from the laptop.</h4>
+                <h4>3. Move your right wrist in an ascending and decending manner, a red dot should appear on your right wrist.</h4>
+                <h4>4. Now press the play button, and again move yourself 3-4 feet away from laptop.</h4>
+                <h4>5. The red paddel is your paddel, that will move as per the movement of your right wrist.</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<h3 id="footer">Nandana Tiwari</h3>
+           </center>
+        <script src="main.js"></script>
+    </body>
+</html>
