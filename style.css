@@ -5,3 +5,32 @@ width: 100%;
 text-align: center;
 color: black;
 }
+
+body {
+ color: white;
+    background-image: url("background1.jpg");
+}
+
+#start-game, #restart-game{
+    background-color: black;
+    color: white;
+}
+
+.modal-content{
+    color:black;
+}
+
+#app_name{
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+
+#instruct{
+    float: right;
+    margin-bottom: 30px;
+    background-color: black;
+    border: white;
+    border-style: groove;
+    color: white;
+}
